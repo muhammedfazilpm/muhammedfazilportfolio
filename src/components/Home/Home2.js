@@ -75,6 +75,16 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+              <li className="social-icons">
+              <a
+                href="https://leetcode.com/fazilfezz/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <p>leet</p>
+              </a>
+            </li>
               
               <li className="social-icons">
                 <a
