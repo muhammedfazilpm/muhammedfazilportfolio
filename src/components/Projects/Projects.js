@@ -2,14 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bas from '../../Assets/Projects/Bas.png'
+import indus from '../../Assets/Projects/induswayfare.png'
+import signmedia from '../../Assets/Projects/signmedia.png'
+
 
 function Projects() {
+
+
+
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -18,39 +19,39 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on recently as a freelancer.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={indus}
               isBlog={false}
-              title="GanG"
-              description="Gang: Your Go-To Travel Companion is an app that connects travelers with local guides and hosts for personalized experiences, tours, and accommodations. It fosters cultural exchange and simplifies travel planning."
-              ghLink="https://github.com/muhammedfazilpm/GanG-front"
-              demoLink="https://gangguide.netlify.app/"
+              title="Induswayfair"
+              description="Indus Wayfair is a visionary real estate company. and  responsive static website for IndusWayfare using React, enhancing their online presence and user engagement.did as a freelance website "
+              // ghLink="https://github.com/muhammedfazilpm/GanG-front"
+              demoLink="https://www.induswayfair.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={bas}
               isBlog={false}
-              title="Globalcycle"
-              description="Your All-in-One E-commerce Solution: Our website offers a seamless shopping experience with payment processing, a convenient cart, and coupon integration. On the admin side, manage your store with ease."
-              ghLink="https://github.com/muhammedfazilpm/ecart"
-              demoLink="https://globalone.shop"
+              title="Bas study centre"
+              description="BAS Study Centre is committed to enriching the lives of our students by empowering them. this is a Dynamic  website made with React,Node and mongodb and also an admin pannel"
+              // ghLink="https://github.com/muhammedfazilpm/ecart"
+              demoLink="https://www.basstudycentre.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={signmedia}
               isBlog={false}
-              title="Netflix-clone-app"
-              description="React to Entertainment: Experience the magic of our Netflix clone app, built with React. Enjoy a wide selection of content, smooth navigation, and user-friendly features for a streaming experience that rivals the original."
-              ghLink="https://github.com/muhammedfazilpm/netflix"
-              demoLink="https://netfixcopy.netlify.app"              
+              title="Signmedia"
+              description="its a ecomerce website to sell and show case the product like mechines with the help of react node and mongo db and contain a admin pannel to add and edit products and show case the orders"
+              // ghLink="https://github.com/muhammedfazilpm/netflix"
+              demoLink="https://signmedia.vercel.app/"              
             />
           </Col>
           
