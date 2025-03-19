@@ -54,7 +54,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img style={{height:"300px",width:"auto",borderRadius:"100px"}} src='https://res.cloudinary.com/dves9p9u6/image/upload/v1742380888/1A3A3445_cedbki.jpg' className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
