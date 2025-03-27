@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
+import BlogPage from "./components/About/BlogPage";
 import { Toaster } from "react-hot-toast";
 import {
   BrowserRouter as Router,
@@ -43,6 +44,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<BlogPage />} />
+
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

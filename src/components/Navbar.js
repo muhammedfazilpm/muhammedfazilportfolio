@@ -12,7 +12,8 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-  AiFillFile 
+  AiFillFile ,
+  AiFillBulb 
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -83,6 +84,18 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
+                as={Link}
+                to="/blog"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillBulb 
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Blogs
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
                 href="https://res.cloudinary.com/duh0vpqln/image/upload/v1741255534/MUHAMMED_FAZIL-MERN_ppdy4m.pdf"
                 onClick={() => updateExpanded(false)}
               >
@@ -92,6 +105,7 @@ function NavBar() {
                 Resume
               </Nav.Link>
             </Nav.Item>
+            
 
             <Nav.Item className="fork-btn">
               <Button

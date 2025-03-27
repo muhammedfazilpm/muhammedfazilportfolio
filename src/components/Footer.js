@@ -14,7 +14,9 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Developed by muhammed fazil pm</h3>
+          <h3>  <a href="https://wa.me/+919526788138" style={{ textDecoration: "none",color:"white" }}>
+          Get a Free Consultation
+</a></h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} </h3>
